@@ -10,4 +10,5 @@ User can select different products and can see their details by clicking on the 
 User can add products to the cart and the cart will show the total price.
 By clicking on the items user have selected, user will redirect to the "CART" page from where user can checkout or continue his shopping.
 User can also remove the products.
+Session will be cleared when you Logout for security purpose.
 
