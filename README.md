@@ -12,3 +12,27 @@ By clicking on the items user have selected, user will redirect to the "CART" pa
 User can also remove the products.
 Session will be cleared when you Logout for security purpose.
 
+HOW TO RUN THIS WEB APPLICATION
+
+STEP 1:- INSTALL LATEST VERSION OF NODE.JS ---> (https://nodejs.org/en/).
+
+STEP 2:- OPEN CMD AND TYPE ---> (npm install -g typings).
+
+STEP 3:- OPEN ECLIPSE AND CREATE NEW WEB DYNAMICS PROJECT.
+
+SETP 4:- DOWNLOAD ONLINE-SHOPPING-CART AND PASTE ALL THE FILES AND FOLDERS TO WEBCONTENT.
+
+SETP 5:- OPEN WEBCONTENT AND RIGHT CLICK ON PACKAGE.JSON ---> RUN AS ---> NPM INSTALL.
+
+STEP 6:- RIGHT CLICK ON PACKAGE.JSON ---> SHOW IN ---> TERMINAL
+ 
+                    OR
+                      
+         OPEN CMD AND TO SPECIFIC PATH ONLINE-SHOPPING-PORTAL\WebContent\
+         
+STEP 7:- IN TERMINAL TYPE ---> (NPM START)
+         
+         
+         
+THEN ENJOY THIS SHOPPING CART EXPERIENCE IN ANGULAR 2
+         
