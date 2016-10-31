@@ -1,0 +1,43 @@
+[
+{"productId":1,
+"productName":"Samsung Galaxy J7",
+"productCode":"Mobile-11",
+"description":"16GB, Gold",
+"price":14999,
+"imageUrl":"app/products/img/SamJ7.jpeg"},
+
+{"productId":2,
+"productName":"Samsung Galaxy J5",
+"productCode":"Mobile-12",
+"description":"8GB, Gold",
+"price":13440,
+"imageUrl":"app/products/img/SamJ5.jpg"},
+
+{"productId":3,
+"productName":"MotoXPlay",
+"productCode":"Mobile-13",
+"description":"16GB, Black",
+"price":15779,
+"imageUrl":"app/products/img/motox.jpg"},
+
+{"productId":4,
+"productName":"Lenovo Vibe",
+"productCode":"Mobile-14",
+"description":"16GB, Black",
+"price":6999,
+"imageUrl":"app/products/img/lenovovibe.png"},
+
+{"productId":5,
+"productName":"IPhone 6",
+"productCode":"Mobile-15",
+"description":"16GB, Space Grey",
+"price":35999,
+"imageUrl":"app/products/img/iphone6.jpg"},
+
+{"productId":6,
+"productName":"Iphone 7",
+"productCode":"Mobile-16",
+"description":"32GB, Gold",
+"price":65000,
+"imageUrl":"app/products/img/iphone7.jpg"}
+]

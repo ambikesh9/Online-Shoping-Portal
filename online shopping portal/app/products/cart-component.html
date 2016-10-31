@@ -1,0 +1,59 @@
+<div class="panel panel-info">
+	<div class="panel-heading"> {{pageTitle}}</div>
+	<div class="panel-body">
+		<div class="table-responsive">
+				<table class='table'
+				*ngIf='selectedProducts && selectedProducts.length'>
+				<thead>
+				<tr>
+					<th>Product</th>
+					<th>Quantity</th>
+					<th>Price</th>
+					<th>Total Price</th>
+					<th></th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr *ngFor='let product of selectedProducts; let i=index'>
+					<td> {{product.productname}}</td>
+					<td> <input type="number" id="quant" class="col-xm-4"
+					[(ngModel)]=product.quantity min="1" max="100"
+					(change)="updateCart(product)"></td>
+					<td>{{product.price | currency:'INR':true:'1.2-2'}}</td>
+					<td>{{product.totalPrice | currency:'INR':true:'1.2-2'}}</td>
+					<td><a (click)="remove(i)"><span title="Delete"
+					class="glyphicon glyphicon-trash"></span></a></td>
+					</tr>
+					
+					<tr>
+					<td></td>
+					<td></td>
+					<td>Total</td>
+					<td><strong>{{grandTotal | currency:'INR':true:'1.2-2'}}</strong></td>
+					<td></td>
+					</tr>
+					<tr>
+					<td></td>
+					<td></td>
+					<td>
+					<button type="button" class="btn btn-warning" 
+					(click)='onBack()'>
+					<span class="glyphicon glyphicon-shoping-cart"></span> Continue Shopping
+					</button>
+					
+					</td>
+					<td>
+					<button type="button" class="btn btn-success"
+					(click)="checkout()">
+					Checkout <span class="glyphicon glyphicon-play"></span>
+					
+					</button>
+					</td>
+					<td></td>
+					</tr>
+					</tbody>
+				</table>
+		
+	</div>
+</div>
+		</div>
