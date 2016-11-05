@@ -1,5 +1,5 @@
 # Online-Shopping-Portal
-An online shopping portal made using Angular JS 2. In this project user can Login using following credentials:
+A Single Page Application (SPA) named "online shopping portal" made using AngularJS 2. In this project user can Login using following credentials:
 [username:-"ambikesh"] [password:-"ambikesh"]
 [username:-"user1"] [password:-"user1@123"]
 [username:-"user2"] [password:-"user2@123"]
